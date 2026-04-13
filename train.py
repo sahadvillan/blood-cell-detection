@@ -409,7 +409,7 @@ if __name__ == "__main__":
         output_dir=save_path,
         per_device_train_batch_size=1,        # Reduced to 1 to guarantee it fits on a 16GB T4 GPU
         gradient_accumulation_steps=2,        # Accumulate to maintain an effective batch size of 2
-        num_train_epochs=50,
+        num_train_epochs=30,
         learning_rate=1e-5,
         lr_scheduler_type="cosine",   # Smooth decay to near-zero at epoch 50
         warmup_ratio=0.05,            # Warm up over first 5% of total steps
