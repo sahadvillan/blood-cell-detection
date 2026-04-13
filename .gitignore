@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets and Notebook outputs
+blood_cell_data/
+dataset_annotations/
+*.zip
+
+# Unnecessary scratch testing files
+scratch/
+test.py
+plot_training.py
+find_bad_boxes.py
+fix_notebook.py
+update_notebook.py
+
+# Models & Evaluation results
+Best_model_with_tiling/
+Best_model_with_tiling_final/
+Best_model_without_tiling/
+saved_models/
+*.pth
+*.pt
+*.safetensors
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Word Documents
+*.docx
+~$*
+
+# PDFs
+*.pdf
+
+# Extra MD Files
+Analysis*.md
+Comparison*.md
+Dataset*.md
+Tiling*.md
+
+Best_model_without*
+
+# Raw Datasets
+BCCD_Dataset/

@@ -1,0 +1,28 @@
+[project]
+name = "bccd-blood-cell-detection"
+version = "0.1.0"
+description = "Transformer-based object detection (DETR) on the BCCD dataset."
+requires-python = ">=3.10"
+authors = [{ name = "Antigravity", email = "antigravity@example.com" }]
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision",
+    "transformers",
+    "pycocotools",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "tqdm",
+    "pillow",
+    "albumentations",
+    "opencv-python",
+    "scipy",
+    "pandas",
+    "tensorboard",
+    "lxml",
+    "timm",
+    "accelerate>=1.1.0"
+]
+
+[tool.uv]
+managed = true
